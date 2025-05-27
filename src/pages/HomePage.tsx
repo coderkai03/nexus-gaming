@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
       <section className="relative h-screen flex items-center bg-dark-950">
         <div className="absolute inset-0 z-0">
           <img
-            src="/nexus-gamers.png"
+            src="/images/nexus-gamers.png"
             alt="Gaming setup"
             className="w-full h-full object-cover opacity-100"
           />
