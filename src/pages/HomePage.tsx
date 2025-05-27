@@ -17,11 +17,11 @@ const HomePage: React.FC = () => {
       <section className="relative h-screen flex items-center bg-dark-950">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/4792733/pexels-photo-4792733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="/nexus-gamers.png"
             alt="Gaming setup"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-100"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-dark-950 via-dark-950/90 to-dark-950/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-dark-950 via-dark-950/80 to-dark-950/950" />
         </div>
         
         <Container className="relative z-10">
@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
               Top-Tier<br/><span className="text-primary-400">Gaming Gear</span>
             </h1>
             <p className="text-gray-300 text-lg md:text-xl mb-8">
-              Elevate your gameplay with our premium peripherals designed for peak performance and unmatched durability.
+              Elevate your gameplay with our premium peripherals<br/>designed for peak performance and unmatched durability.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/shop">

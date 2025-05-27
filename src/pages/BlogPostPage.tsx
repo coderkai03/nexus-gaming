@@ -64,10 +64,6 @@ const BlogPostPage: React.FC = () => {
             </h1>
             
             <div className="prose prose-invert prose-lg max-w-none">
-              <p className="text-gray-300 mb-6 text-lg font-medium">
-                {post.excerpt}
-              </p>
-              
               <div className="text-gray-300 space-y-6">
                 <p>{post.content}</p>
                 <p>

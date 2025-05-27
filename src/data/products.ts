@@ -2,218 +2,483 @@ import { Product } from '../types';
 
 export const products: Product[] = [
   {
-    id: '1',
-    name: 'NEXUS X1 Mechanical Keyboard',
-    category: 'keyboard',
-    price: 179.99,
-    image: 'https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'The NEXUS X1 is our flagship mechanical keyboard featuring premium CNC aluminum construction, hot-swappable switches, and customizable RGB lighting.',
-    features: [
-      'Aircraft-grade aluminum frame',
-      'Hot-swappable switch sockets',
-      'Per-key RGB lighting with 16.8M colors',
-      'USB-C detachable cable',
-      'Programmable macro keys',
-      'Memory foam wrist rest included'
-    ],
+    id: "8b0d1a34-36d5-44b2-b74b-755845e69711",
+    name: "Mini Gaming Desktop Intel i7",
+    category: "accessory",
+    price: 369.99,
+    image: "https://m.media-amazon.com/images/I/617Z0XchjmL._AC_UY218_.jpg",
+    description: `Mini Gaming Desktop Intel i7 is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
     specs: {
-      'Switch Type': 'Premium Tactile (Optional Linear or Clicky)',
-      'Keycaps': 'Double-shot PBT',
-      'Polling Rate': '1000Hz',
-      'Response Time': '1ms',
-      'Dimensions': '440mm x 140mm x 40mm',
-      'Weight': '1.2kg'
-    },
-    hasRGB: true,
-    inStock: true,
-    isBestSeller: true
-  },
-  {
-    id: '2',
-    name: 'NEXUS M2 Ultra Gaming Mouse',
-    category: 'mouse',
-    price: 129.99,
-    image: 'https://images.pexels.com/photos/3654768/pexels-photo-3654768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Experience unparalleled precision with the NEXUS M2 Ultra featuring an advanced optical sensor, lightweight shell design, and customizable side buttons.',
-    features: [
-      'Ultra-precise 26,000 DPI optical sensor',
-      'Ergonomic right-handed design',
-      'Lightweight honeycomb shell (68g)',
-      'Eight programmable buttons',
-      'PTFE skates for smooth gliding',
-      'RGB lighting with reactive effects'
-    ],
-    specs: {
-      'Sensor': 'NEXUS Optical 3.0',
-      'Max DPI': '26,000',
-      'Polling Rate': '8000Hz',
-      'Buttons': '8 programmable',
-      'Cable': 'Paracord 2.0 USB-C',
-      'Battery Life': 'N/A (Wired)',
-      'Weight': '68g'
-    },
-    hasRGB: true,
-    inStock: true,
-    isNew: true
-  },
-  {
-    id: '3',
-    name: 'NEXUS H1 Wireless Headset',
-    category: 'headset',
-    price: 249.99,
-    image: 'https://images.pexels.com/photos/8412420/pexels-photo-8412420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Immerse yourself in crystal-clear audio with the NEXUS H1 Wireless Headset featuring 3D spatial audio, memory foam ear cushions, and dual wireless connectivity.',
-    features: [
-      'Advanced 50mm neodymium drivers',
-      'Dual wireless (2.4GHz + Bluetooth 5.2)',
-      'Active noise cancellation',
-      'Retractable noise-cancelling microphone',
-      'Memory foam ear cushions',
-      'Up to 30 hours battery life'
-    ],
-    specs: {
-      'Driver Size': '50mm',
-      'Frequency Response': '20Hz - 20kHz',
-      'Impedance': '32 Ohms',
-      'Microphone': 'Retractable with noise cancellation',
-      'Wireless Range': '15m (2.4GHz)',
-      'Battery': '30 hours (ANC on)',
-      'Weight': '320g'
-    },
+      "Brand": "Mini",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
     hasRGB: true,
     inStock: true
   },
   {
-    id: '4',
-    name: 'NEXUS P1 Gaming Mouse Pad',
-    category: 'accessory',
-    price: 49.99,
-    image: 'https://images.pexels.com/photos/7172886/pexels-photo-7172886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'The NEXUS P1 is an extended gaming mouse pad with a micro-weave cloth surface for optimal tracking precision and a non-slip rubber base.',
-    features: [
-      'Extended size (900mm x 400mm)',
-      'Micro-weave cloth surface',
-      'Non-slip rubber base',
-      'Stitched edges for durability',
-      'Water-resistant coating',
-      'RGB edge lighting with 8 effects'
-    ],
+    id: "ab2320d1-183f-4e0d-a552-b802156d726d",
+    name: "SM809 Pro Wireless MMO Gaming Mouse with 9 Side Buttons",
+    category: "mouse",
+    price: 39.89,
+    image: "https://m.media-amazon.com/images/I/61w1P+THglL._AC_UY218_.jpg",
+    description: `SM809 Pro Wireless MMO Gaming Mouse with 9 Side Buttons is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
     specs: {
-      'Material': 'Micro-weave cloth',
-      'Dimensions': '900mm x 400mm x 4mm',
-      'Lighting': 'RGB (USB powered)',
-      'Base': 'Natural rubber',
-      'Edge': 'Anti-fray stitched'
-    },
+      "Brand": "SM809",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
     hasRGB: true,
     inStock: true
   },
   {
-    id: '5',
-    name: 'NEXUS K2 TKL Keyboard',
-    category: 'keyboard',
+    id: "1838fadc-617e-4462-bc91-e77125011d02",
+    name: "USB 3.0 Hub",
+    category: "accessory",
+    price: 5.88,
+    image: "https://m.media-amazon.com/images/I/61cg1AdFLoL._AC_UY218_.jpg",
+    description: `USB 3.0 Hub is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "USB",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "10153d6a-5daa-4d3f-8c76-1862fcb02eac",
+    name: "Razer Tartarus V2 Gaming Keypad",
+    category: "keyboard",
+    price: 79.99,
+    image: "https://m.media-amazon.com/images/I/71r3ktfakgL._AC_UY218_.jpg",
+    description: `Razer Tartarus V2 Gaming Keypad is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Razer",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "73e5aba8-c430-4ed8-9bf2-074aea3abfc4",
+    name: "Keyboard Cleaning Kit Laptop Cleaner",
+    category: "keyboard",
+    price: 16.98,
+    image: "https://m.media-amazon.com/images/I/71AJth10-BL._AC_UY218_.jpg",
+    description: `Keyboard Cleaning Kit Laptop Cleaner is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Keyboard",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "d5d9fa82-862d-4807-812f-4bcc075993f4",
+    name: "Antec C8 ARGB",
+    category: "accessory",
     price: 149.99,
-    image: 'https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'A tenkeyless mechanical keyboard designed for competitive gamers featuring a compact layout, premium switches, and tournament-ready features.',
-    features: [
-      'Tenkeyless compact design',
-      'Aluminum top plate',
-      'Linear optical switches',
-      'Doubleshot PBT keycaps',
-      'Onboard memory for profiles',
-      'Detachable USB-C cable'
-    ],
+    image: "https://m.media-amazon.com/images/I/71yqaSpUmnL._AC_UL320_.jpg",
+    description: `Antec C8 ARGB is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
     specs: {
-      'Switch Type': 'NEXUS Optical Linear',
-      'Actuation Point': '1.0mm',
-      'Actuation Force': '45g',
-      'Polling Rate': '8000Hz',
-      'Dimensions': '360mm x 140mm x 35mm',
-      'Weight': '850g'
-    },
+      "Brand": "Antec",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
     hasRGB: true,
     inStock: true
   },
   {
-    id: '6',
-    name: 'NEXUS M1 Lightweight Mouse',
-    category: 'mouse',
-    price: 89.99,
-    image: 'https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Ultra-lightweight gaming mouse weighing just 58g with a symmetrical design suitable for all grip styles and an advanced optical sensor.',
-    features: [
-      'Ultra-lightweight design (58g)',
-      'Symmetrical shape for all grip styles',
-      'NEXUS Optical sensor (19,000 DPI)',
-      '100% PTFE feet',
-      'Flexible paracord cable',
-      'Six programmable buttons'
-    ],
+    id: "93da01bf-8630-4bbc-8e16-b4008a85af9e",
+    name: "Womier 60% Percent Keyboard Wireless with QMK/VIA",
+    category: "keyboard",
+    price: 55.59,
+    image: "https://m.media-amazon.com/images/I/81vh5wPwBGL._AC_UL320_.jpg",
+    description: `Womier 60% Percent Keyboard Wireless with QMK/VIA is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
     specs: {
-      'Sensor': 'NEXUS Optical 2.0',
-      'Max DPI': '19,000',
-      'Polling Rate': '1000Hz',
-      'Buttons': '6 programmable',
-      'Cable': 'Flexible paracord',
-      'Weight': '58g'
-    },
-    hasRGB: false,
-    inStock: true,
-    isBestSeller: true
+      "Brand": "Womier",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
   },
   {
-    id: '7',
-    name: 'NEXUS A1 Audio Mixer',
-    category: 'accessory',
+    id: "6da8705e-1f03-4d1a-b050-0ff09c36ab2c",
+    name: "FIFINE Gaming Equipment Bundle",
+    category: "accessory",
+    price: 99.99,
+    image: "https://m.media-amazon.com/images/I/71hdcmFKRPL._AC_UL320_.jpg",
+    description: `FIFINE Gaming Equipment Bundle is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "FIFINE",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "ee9903b8-e1c3-459f-ac6a-599b8968c287",
+    name: "BENGOO Gaming Mouse Wired",
+    category: "mouse",
+    price: 9.0,
+    image: "https://m.media-amazon.com/images/I/61lCLrCtuhL._AC_UL320_.jpg",
+    description: `BENGOO Gaming Mouse Wired is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "BENGOO",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "986d3cb8-1d58-48ca-9bd8-a40cf792ee13",
+    name: "Topographic Contour Extended Big Mouse Pad Large",
+    category: "mouse",
+    price: 14.39,
+    image: "https://m.media-amazon.com/images/I/81XRMie1POL._AC_UY218_.jpg",
+    description: `Topographic Contour Extended Big Mouse Pad Large is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Topographic",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "876f1da4-fd47-4c6d-b1eb-c8e7f410d6bf",
+    name: "Antec C5 ARGB",
+    category: "accessory",
     price: 129.99,
-    image: 'https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Take control of your audio with this compact mixer featuring dedicated sliders for game and chat audio, plus one-touch audio presets for streaming.',
-    features: [
-      'Dedicated game/chat audio balance',
-      'Physical sliders for precise control',
-      'One-touch audio presets',
-      'Voice modulation effects',
-      'RGB status indicators',
-      'Compatible with all headsets'
-    ],
+    image: "https://m.media-amazon.com/images/I/71jUnB5Yx0L._AC_UY218_.jpg",
+    description: `Antec C5 ARGB is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
     specs: {
-      'Connections': 'USB-C, 3.5mm',
-      'Sample Rate': '24-bit/96kHz',
-      'Presets': '8 customizable',
-      'Dimensions': '120mm x 80mm x 25mm',
-      'Compatibility': 'PC, PS5, Xbox Series X/S'
-    },
+      "Brand": "Antec",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
     hasRGB: true,
-    inStock: true,
-    isNew: true
+    inStock: true
   },
   {
-    id: '8',
-    name: 'NEXUS H2 Esports Headset',
-    category: 'headset',
-    price: 199.99,
-    image: 'https://images.pexels.com/photos/8412464/pexels-photo-8412464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Tournament-grade wired headset designed for competitive play with precise directional audio, ultra-lightweight design, and passive noise isolation.',
-    features: [
-      'Tournament-grade directional audio',
-      'Lightweight design (275g)',
-      'Passive noise isolation',
-      'Detachable boom microphone',
-      'Memory foam ear cushions',
-      'Inline audio controls'
-    ],
+    id: "07ba76a5-086a-45ba-a1c0-ca06555a1e65",
+    name: "Hi75 Keyboard",
+    category: "keyboard",
+    price: 85.99,
+    image: "https://m.media-amazon.com/images/I/61gVneHP+KL._AC_UY218_.jpg",
+    description: `Hi75 Keyboard is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
     specs: {
-      'Driver Size': '53mm',
-      'Frequency Response': '10Hz - 30kHz',
-      'Impedance': '35 Ohms',
-      'Microphone': 'Detachable with pop filter',
-      'Cable': '2m braided with inline controls',
-      'Weight': '275g'
-    },
-    hasRGB: false,
+      "Brand": "Hi75",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
     inStock: true
-  }
+  },
+  {
+    id: "ab62a879-0b8f-40a5-bee1-e4c4f5152aa3",
+    name: "AULA Keyboard",
+    category: "keyboard",
+    price: 29.99,
+    image: "https://m.media-amazon.com/images/I/71cd3Qs3fEL._AC_UY218_.jpg",
+    description: `AULA Keyboard is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "AULA",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "a7bf6094-c751-4399-a32b-6722a4c510e0",
+    name: "UtechSmart Venus Pro RGB Wireless MMO Gaming Mouse",
+    category: "mouse",
+    price: 47.99,
+    image: "https://m.media-amazon.com/images/I/7134j-mANFL._AC_UY218_.jpg",
+    description: `UtechSmart Venus Pro RGB Wireless MMO Gaming Mouse is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "UtechSmart",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "5967d864-05a4-4df7-9173-6da3175af164",
+    name: "Redragon K585 DITI Wired One",
+    category: "accessory",
+    price: 28.36,
+    image: "https://m.media-amazon.com/images/I/71zS0BekOfL._AC_UY218_.jpg",
+    description: `Redragon K585 DITI Wired One is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Redragon",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "2eb9b475-d309-4731-bfe1-01ac11fdbadf",
+    name: "Gaming Keyboard and Mouse and Mouse pad and Gaming Headset",
+    category: "keyboard",
+    price: 49.91,
+    image: "https://m.media-amazon.com/images/I/71S-pQNQyIL._AC_UY218_.jpg",
+    description: `Gaming Keyboard and Mouse and Mouse pad and Gaming Headset is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Gaming",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "29acb918-d48f-4bad-9955-36ef6172be58",
+    name: "CLX Set Gaming Desktop",
+    category: "accessory",
+    price: 1449.99,
+    image: "https://m.media-amazon.com/images/I/81dtPKYNK2L._AC_UY218_.jpg",
+    description: `CLX Set Gaming Desktop is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "CLX",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "883f0cbf-4a76-4475-a60d-2050c21ab251",
+    name: "Logitech G305 LIGHTSPEED Wireless Gaming Mouse",
+    category: "mouse",
+    price: 39.99,
+    image: "https://m.media-amazon.com/images/I/51VpABY-b6L._AC_UY218_.jpg",
+    description: `Logitech G305 LIGHTSPEED Wireless Gaming Mouse is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Logitech",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "f9b3b364-ed96-492a-9db5-3d74efdb743f",
+    name: "Redragon S101 Gaming Keyboard",
+    category: "keyboard",
+    price: 39.99,
+    image: "https://m.media-amazon.com/images/I/71QDJHG1PqL._AC_UY218_.jpg",
+    description: `Redragon S101 Gaming Keyboard is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Redragon",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "757cb5f5-1586-43e6-bd42-828cacdff337",
+    name: "Razer BlackShark V2 X Gaming Headset",
+    category: "headset",
+    price: 39.29,
+    image: "https://m.media-amazon.com/images/I/51FRJHB7XOL._AC_UY218_.jpg",
+    description: `Razer BlackShark V2 X Gaming Headset is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Razer",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "65bcd937-cdbf-4d26-95ad-67f805eb5c22",
+    name: "FIFINE XLR/USB Gaming Microphone Set",
+    category: "accessory",
+    price: 67.99,
+    image: "https://m.media-amazon.com/images/I/61-0YoCB2LL._AC_UY218_.jpg",
+    description: `FIFINE XLR/USB Gaming Microphone Set is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "FIFINE",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "0865dacc-f15e-4d51-99bc-7d4fa994c094",
+    name: "AULA SC580 Wireless Gaming Mouse",
+    category: "mouse",
+    price: 26.9,
+    image: "https://m.media-amazon.com/images/I/51R9u3u6s1L._AC_UY218_.jpg",
+    description: `AULA SC580 Wireless Gaming Mouse is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "AULA",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "685dafbf-8f9d-4496-9ac2-51564429027f",
+    name: "Redragon K556 PRO Upgraded Wireless RGB Gaming Keyboard",
+    category: "keyboard",
+    price: 72.99,
+    image: "https://m.media-amazon.com/images/I/61DL2OmIAxL._AC_UY218_.jpg",
+    description: `Redragon K556 PRO Upgraded Wireless RGB Gaming Keyboard is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Redragon",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "f8562a01-9f7c-45d6-bc38-721cc9ac110a",
+    name: "Razer Ornata V3 X Gaming Keyboard",
+    category: "keyboard",
+    price: 29.99,
+    image: "https://m.media-amazon.com/images/I/61nKrd8BW+L._AC_UY218_.jpg",
+    description: `Razer Ornata V3 X Gaming Keyboard is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Razer",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "416b26ac-0801-41af-aca2-0ef27af5ab3e",
+    name: "RedThunder K10 Wireless Gaming Keyboard and Mouse Combo",
+    category: "keyboard",
+    price: 51.29,
+    image: "https://m.media-amazon.com/images/I/717IaZVyToL._AC_UY218_.jpg",
+    description: `RedThunder K10 Wireless Gaming Keyboard and Mouse Combo is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "RedThunder",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "00210c44-716d-4edd-82af-22f740360d16",
+    name: "Headset Holder for Desk",
+    category: "headset",
+    price: 18.99,
+    image: "https://m.media-amazon.com/images/I/71iLAtq0rVL._AC_UY218_.jpg",
+    description: `Headset Holder for Desk is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Headset",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "7a8a7810-0fd4-412c-b87f-bfc7590dac4e",
+    name: "ASUS ROG Harpe Ace Mini Wireless Gaming Mouse",
+    category: "mouse",
+    price: 129.99,
+    image: "https://m.media-amazon.com/images/I/61nQwrRX3gL._AC_UL320_.jpg",
+    description: `ASUS ROG Harpe Ace Mini Wireless Gaming Mouse is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "ASUS",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
+  {
+    id: "1567dfb8-6c6e-4d31-8768-00036cf29fc4",
+    name: "Logitech MX Master 2S Bluetooth Edition Wireless Mouse – Use on Any Surface",
+    category: "mouse",
+    price: 64.99,
+    image: "https://m.media-amazon.com/images/I/519XaWc6D6L._AC_UL320_.jpg",
+    description: `Logitech MX Master 2S Bluetooth Edition Wireless Mouse – Use on Any Surface is a premium gaming peripheral designed for peak performance.`,
+    features: ["High performance", "Ergonomic design", "Durable build", "Easy plug and play", "Wide compatibility"],
+    specs: {
+      "Brand": "Logitech",
+      "Connectivity": "USB / Wireless",
+      "Compatibility": "PC, Xbox, PS5",
+      "Weight": "Varies by model"
+},
+    hasRGB: true,
+    inStock: true
+  },
 ];
+
 
 export const getFeaturedProducts = () => {
   return products.filter(product => product.isBestSeller || product.isNew);
