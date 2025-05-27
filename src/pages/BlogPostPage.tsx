@@ -16,7 +16,9 @@ const BlogPostPage: React.FC = () => {
           <div className="text-center">
             <h1 className="font-mono font-bold text-3xl text-white mb-6">Article Not Found</h1>
             <p className="text-gray-400 mb-8">The article you're looking for doesn't exist or has been removed.</p>
-            <Button as={Link} to="/blog">Back to Blog</Button>
+            <Link to="/blog">
+              <Button>Back to Blog</Button>
+            </Link>
           </div>
         </Container>
       </div>
@@ -98,9 +100,11 @@ const BlogPostPage: React.FC = () => {
                   </button>
                 </div>
               </div>
-              <Button as={Link} to="/blog" variant="outline" size="sm">
-                More Articles
-              </Button>
+              <Link to="/blog">
+                <Button variant="outline" size="sm">
+                  More Articles
+                </Button>
+              </Link>
             </div>
           </div>
         </article>

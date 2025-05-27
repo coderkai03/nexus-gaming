@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><Link to="/about" className="text-gray-400 hover:text-primary-400 transition-colors">About Us</Link></li>
               <li><Link to="/blog" className="text-gray-400 hover:text-primary-400 transition-colors">Blog</Link></li>
-              <li><Link to="/gallery" className="text-gray-400 hover:text-primary-400 transition-colors">Pro Gallery</Link></li>
+              {/* <li><Link to="/gallery" className="text-gray-400 hover:text-primary-400 transition-colors">Pro Gallery</Link></li> */}
               <li><Link to="/careers" className="text-gray-400 hover:text-primary-400 transition-colors">Careers</Link></li>
               <li><Link to="/support" className="text-gray-400 hover:text-primary-400 transition-colors">Support</Link></li>
             </ul>
@@ -79,11 +79,14 @@ const Footer: React.FC = () => {
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
               &copy; 2025 NEXUS Technologies. All rights reserved.
             </p>
-            <div className="flex space-x-6">
+            <p className="text-gray-500 text-xs mb-4 md:mb-0">
+              Made with <span role="img" aria-label="love">❤️</span> by <a href="https://seopraxis.com" target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:text-primary-500 transition-colors">SEO Praxis</a>
+            </p>
+            {/* <div className="flex space-x-6">
               <Link to="/privacy" className="text-gray-500 hover:text-primary-400 transition-colors text-sm">Privacy Policy</Link>
               <Link to="/terms" className="text-gray-500 hover:text-primary-400 transition-colors text-sm">Terms of Service</Link>
               <Link to="/shipping" className="text-gray-500 hover:text-primary-400 transition-colors text-sm">Shipping Policy</Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>

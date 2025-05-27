@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Filter, SortDesc, Bolt } from 'lucide-react';
+import { Filter, SortDesc, X } from 'lucide-react';
 import Container from '../components/ui/Container';
 import ProductCard from '../components/ui/ProductCard';
 import Button from '../components/ui/Button';

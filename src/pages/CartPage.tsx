@@ -16,7 +16,9 @@ const CartPage: React.FC = () => {
             <ShoppingBag className="h-16 w-16 text-primary-400 mx-auto mb-6" />
             <h1 className="font-mono font-bold text-3xl text-white mb-4">Your Cart is Empty</h1>
             <p className="text-gray-400 mb-8">Looks like you haven't added any products to your cart yet.</p>
-            <Button as={Link} to="/shop">Browse Products</Button>
+            <Link to="/shop">
+              <Button>Browse Products</Button>
+            </Link>
           </div>
         </Container>
       </div>

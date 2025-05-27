@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Shop', path: '/shop' },
-    { name: 'Pro Gallery', path: '/gallery' },
+    // { name: 'Pro Gallery', path: '/gallery' },
     { name: 'Blog', path: '/blog' },
     { name: 'About', path: '/about' },
     { name: 'Support', path: '/support' },
@@ -64,12 +64,12 @@ const Navbar: React.FC = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <button aria-label="Search" className="text-gray-300 hover:text-primary-400 transition-colors">
+            {/* <button aria-label="Search" className="text-gray-300 hover:text-primary-400 transition-colors">
               <Search size={20} />
             </button>
             <button aria-label="User account" className="text-gray-300 hover:text-primary-400 transition-colors">
               <User size={20} />
-            </button>
+            </button> */}
             <Link to="/cart" className="relative">
               <ShoppingCart className="text-gray-300 hover:text-primary-400 transition-colors" size={20} />
               {getCartCount() > 0 && (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrainCircuit as Circuit, Target, Award, Shield, Users, ArrowRight } from 'lucide-react';
+import { BrainCircuit as Circuit, Target, Award, Shield } from 'lucide-react';
 import Container from '../components/ui/Container';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
@@ -24,7 +24,7 @@ const AboutPage: React.FC = () => {
               About <span className="text-primary-400">NEXUS</span>
             </h1>
             <p className="text-gray-300 text-lg mb-8">
-              Founded in 2022, NEXUS is dedicated to creating premium gaming peripherals that combine cutting-edge technology, exceptional build quality, and minimalist design. We're gamers building for gamers.
+              NEXUS is dedicated to providing premium gaming peripherals that combine cutting-edge technology, exceptional build quality, and minimalist design that gamers love.
             </p>
           </div>
         </Container>
@@ -37,13 +37,13 @@ const AboutPage: React.FC = () => {
             <div>
               <h2 className="font-mono font-bold text-3xl text-white mb-6">Our Mission</h2>
               <p className="text-gray-300 mb-6">
-                At NEXUS, we believe that premium gaming gear shouldn't just perform exceptionally—it should be built to last, feel incredible to use, and enhance your setup with clean, sophisticated design.
+                At NEXUS, we believe that premium gaming gear should deliver both exceptional performance and a refined aesthetic. That's why we carefully curate industry-leading products that feel great to use and look even better on your setup.
               </p>
               <p className="text-gray-300 mb-6">
-                We're on a mission to eliminate the compromise between performance and aesthetics. Every product we create undergoes rigorous testing by professional esports athletes to ensure it delivers the precision and reliability demanded by competitive gaming.
+                Our mission is to eliminate the compromise between performance and style. Every product we offer is handpicked and tested by competitive gamers to ensure it meets the standards of high-stakes play.
               </p>
               <p className="text-gray-300">
-                Whether you're a professional competitor or a passionate enthusiast, NEXUS equipment is engineered to elevate your gaming experience to the next level.
+                Whether you're a seasoned pro or a dedicated enthusiast, NEXUS is your trusted source for gear that helps you play—and look—at your best.
               </p>
             </div>
             <div className="bg-dark-800 rounded-lg p-8">
@@ -83,7 +83,7 @@ const AboutPage: React.FC = () => {
       </section>
 
       {/* Team section */}
-      <section className="py-20 bg-dark-950">
+      {/* <section className="py-20 bg-dark-950">
         <Container>
           <div className="text-center mb-12">
             <h2 className="font-mono font-bold text-3xl text-white mb-4">Our Team</h2>
@@ -145,46 +145,7 @@ const AboutPage: React.FC = () => {
             </div>
           </div>
         </Container>
-      </section>
-
-      {/* Partners section */}
-      <section className="py-20 bg-dark-900">
-        <Container>
-          <div className="text-center mb-12">
-            <h2 className="font-mono font-bold text-3xl text-white mb-4">Our Partners</h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">
-              We're proud to work with some of the most talented teams and individuals in gaming
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="flex items-center justify-center p-8 bg-dark-800 rounded-lg hover:bg-dark-700 transition-colors">
-              <div className="text-center">
-                <Users className="h-10 w-10 text-primary-400 mx-auto mb-4" />
-                <span className="font-mono font-bold text-white">Team Alpha</span>
-              </div>
-            </div>
-            <div className="flex items-center justify-center p-8 bg-dark-800 rounded-lg hover:bg-dark-700 transition-colors">
-              <div className="text-center">
-                <Users className="h-10 w-10 text-primary-400 mx-auto mb-4" />
-                <span className="font-mono font-bold text-white">Omega Esports</span>
-              </div>
-            </div>
-            <div className="flex items-center justify-center p-8 bg-dark-800 rounded-lg hover:bg-dark-700 transition-colors">
-              <div className="text-center">
-                <Users className="h-10 w-10 text-primary-400 mx-auto mb-4" />
-                <span className="font-mono font-bold text-white">Nexus Gaming</span>
-              </div>
-            </div>
-            <div className="flex items-center justify-center p-8 bg-dark-800 rounded-lg hover:bg-dark-700 transition-colors">
-              <div className="text-center">
-                <Users className="h-10 w-10 text-primary-400 mx-auto mb-4" />
-                <span className="font-mono font-bold text-white">Pro Circuit</span>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </section>
+      </section> */}
 
       {/* CTA section */}
       <section className="py-20 bg-dark-950">
@@ -197,12 +158,16 @@ const AboutPage: React.FC = () => {
               Experience premium gaming peripherals designed for competitive play and aesthetic excellence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button as={Link} to="/shop" size="lg">
-                Shop Now
-              </Button>
-              <Button as={Link} to="/support" variant="outline" size="lg">
-                Contact Us
-              </Button>
+              <Link to="/shop">
+                <Button size="lg">
+                  Shop Now
+                </Button>
+              </Link>
+              <Link to="/support" className="w-full sm:w-auto">
+                <Button variant="outline" size="lg">
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </Container>

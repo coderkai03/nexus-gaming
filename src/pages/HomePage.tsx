@@ -27,18 +27,22 @@ const HomePage: React.FC = () => {
         <Container className="relative z-10">
           <div className="max-w-2xl">
             <h1 className="font-mono font-bold text-4xl md:text-5xl lg:text-6xl text-white mb-6">
-              Precision-Engineered <span className="text-primary-400">Gaming Gear</span>
+              Top-Tier<br/><span className="text-primary-400">Gaming Gear</span>
             </h1>
             <p className="text-gray-300 text-lg md:text-xl mb-8">
               Elevate your gameplay with our premium peripherals designed for peak performance and unmatched durability.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" as={Link} to="/shop">
-                Shop Now
-              </Button>
-              <Button variant="outline" size="lg" as={Link} to="/about">
+              <Link to="/shop">
+                <Button size="lg">
+                  Shop Now
+                </Button>
+              </Link>
+              <Link to="/about">
+                <Button variant="outline" size="lg">
                 Our Story
-              </Button>
+                </Button>
+              </Link>
             </div>
           </div>
         </Container>
@@ -162,9 +166,11 @@ const HomePage: React.FC = () => {
             <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
               Join thousands of professional gamers who trust NEXUS for tournament-grade peripherals engineered for victory.
             </p>
-            <Button size="lg" as={Link} to="/shop">
-              Shop Premium Gear
-            </Button>
+            <Link to="/shop">
+              <Button size="lg">
+                Shop Premium Gear
+              </Button>
+            </Link>
           </div>
         </Container>
       </section>
