@@ -4,11 +4,11 @@ import { ArrowRight, Headphones, Keyboard, Mouse, Package } from 'lucide-react';
 import Container from '../components/ui/Container';
 import ProductCard from '../components/ui/ProductCard';
 import Button from '../components/ui/Button';
-import { getFeaturedProducts } from '../data/products';
+import { products } from '../data/products';
 import { getRecentBlogPosts } from '../data/blog';
 
 const HomePage: React.FC = () => {
-  const featuredProducts = getFeaturedProducts();
+  const featuredProducts = products.slice(0, 4);
   const recentPosts = getRecentBlogPosts();
 
   return (
